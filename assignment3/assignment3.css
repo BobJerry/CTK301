@@ -1,0 +1,43 @@
+header {
+  background-color: lightblue;
+}
+h1 {
+  color: red;
+}
+a {
+ color: #FF0000;
+ text-decoration: none;
+}
+
+a:link {
+ color: #FF0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00FF00;
+ text-decoration: none;
+}
+
+a:hover {
+  color:#FFFF00;
+  text-decoration: underline;
+}
+
+.greenbackground {
+  color: red;
+  background-color: #00FF00
+}
+#bluebackground {
+  background-color: darkred;
+}
+
+#Creative {
+  color: lightblue;
+  background-color: darkblue;
+}
+
+.turnred {
+  color: red;
+  font-weight: bold;
+}
