@@ -1,0 +1,67 @@
+.customtext {
+font-family: Arial, Helvetica, sans-serif;
+font-style: none;
+font-weight: none;
+font-size: 20px;
+}
+header {
+  background-color: lightblue;
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+}
+.imgbox {
+border: 10px solid #000000;
+padding: 10px 10px 10px 10px #FFFFFF;
+margin: none;
+}
+h1 {
+  color: orange;
+}
+a {
+ color: #FF0000;
+ text-decoration: none;
+}
+
+a:link {
+ color: #FF0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00FF00;
+ text-decoration: none;
+}
+
+a:hover {
+  color:#FFFF00;
+  text-decoration: underline;
+}
+body {
+background-color: #0000ff;
+background-image: url(coffee.jfif);
+background-repeat: no-repeat;
+background-position: top left;
+}
+.greenbackground {
+  color: red;
+  background-color: #00FF00
+}
+#bluebackground {
+  background-color: darkred;
+}
+.textcenter {
+text-align: center;
+}
+.textjustify {
+text-align: justify;
+}
+#Creative {
+  color: lightblue;
+  background-color: darkblue;
+}
+
+.turnred {
+  color: red;
+  font-weight: bold;
+}
