@@ -1,0 +1,40 @@
+header{
+  background-color: green;
+  color: black;
+  font-style: helvetica;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+nav li {
+  display: grid;
+  margin-left: 0px;
+  padding: 0px;
+  width: 200px;
+  margin: 10px;
+  grid-column: span 1;
+}
+nav li a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+body {
+  background-color: #999999;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px black;
+}
+footer{
+  background-color: green;
+  color: black;
+  font-style: helvetica;
+  padding: 24px;
+  border-radius: 10px;
+}
