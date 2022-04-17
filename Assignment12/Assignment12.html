@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<header>
+<i class="bi bi-twitter"></i>
+<nav>
+<ul>
+  <li><a href="file:///C:/Users/Brian%20Murphy/Downloads/CTK301-main/CTK301/Assignment11/Assignment11.html" target="_blank">Welcome Page</a></li>
+  <li><a href="file:///C:/Users/Brian%20Murphy/Downloads/CTK301-main/CTK301/assignment7/assignment7/aboutthis.html" target="_blank">About This Site</a></li>
+  <li><a href="file:///C:/Users/Brian%20Murphy/Downloads/CTK301-main/CTK301/assignment7/assignment7/gallery.html" target="_blank">Gallery</a></li>
+</ul>
+</nav>
+</header>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Project</title>
+	<link href="Assignment12.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+<body>
+  <div id="wrapper">
+    <h1>Projects</h1>
+
+    <div id="mygallery">
+    <a href="images.jpg" data-fancybox="gallery"
+  data-caption="Ice Cream">
+  <img src="images.jpg">
+</a>
+
+<a href="ISU.jpg" data-fancybox="gallery"
+data-caption="Patch">
+<img src="ISU.jpg">
+</a>
+
+<a href="Chimp.jpg" data-fancybox="gallery"
+data-caption="Water">
+<img src="Chimp.jpg">
+</a>
+  </div>
+  <div id="myCarousel" class="carousel">
+  <div class="carousel__slide"> <img src="images.jpg"></div>
+  <div class="carousel__slide"><img src="ISU.jpg"></div>
+  <div class="carousel__slide"><img src="Chimp.jpg"></div>
+</div>
+<script>
+const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+  // Your options go here
+'center' : false,
+'slidesPerPage' : 2
+});
+</script>
+</body>
+<footer>
+ <h3>Illinois State University</h3>
+ <i class="bi bi-cup-fill"></i>
+</footer>
+</html>
