@@ -4,6 +4,7 @@ header{
   font-style: helvetica;
   padding: 10px;
   border-radius: 10px;
+  font-weight: bold;
 }
 nav ul {
   list-style-type: none;
@@ -23,12 +24,17 @@ nav li {
 nav li a {
   padding: 10px;
   text-decoration: none;
-  display: block;
+  display: white;
   color: black;
+}
+a:hover {
+  color: blue;
+  text-decoration: none;
 }
 body {
   background-color: lightblue;
   font-family: 'Raleway', sans-serif;
+  text-align: left;
 }
 #wrapper {
   margin: 1em auto;
